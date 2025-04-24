@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DoIT Todo</title>
+</head>
+<body>
+  <div class="wrapper">
+    <aside class="side-bar">
+      <div class="logo">
+        <img class="logo-img" src="./assets/icons/task.svg" alt="logo">
+        <h3 class="logo-text">DO<span style="color: orange;">IT</span></h3>
+      </div>
+      <h3>PROJECTS</h3>
+      <nav>
+        <ul>
+          <li><a href="#" class="project-link active">Work</a></li>
+          <li><a href="#" class="project-link">Home</a></li>
+          <li><a href="#" class="project-link">School</a></li>
+        </ul>
+      </nav>
+      <button class="add-project">Add New Project</button>
+      <div class="socials">
+        <a href="#"><img src="#" alt="Facebook"></a>
+        <a href="#"><img src="#" alt="Instagram"></a>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <h3>WORK</h3>
+      <table class="task-table">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Due Date</th>
+            <th>Priority</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <label class="checkbox-label">
+                <input type="checkbox">
+                <div class="task-info">
+                  <strong>Call supervisor</strong>
+                  <span>Call John Doe and update him on the progress of the project.</span>
+                </div>
+              </label>
+            </td>
+            <td><time>1 July, 2025<br><small>2:30 PM</small></time></td>
+            <td class="stars">★ ★ ★ ☆ ☆</td>
+            <td><span class="menu">⋮</span></td>
+          </tr>
+          <tr>
+            <td>
+              <label class="checkbox-label">
+                <input type="checkbox">
+                <div class="task-info">
+                  <strong>Call supervisor</strong>
+                  <span>Call John Doe and update him on the progress of the project.</span>
+                </div>
+              </label>
+            </td>
+            <td><time>Today<br><small>3:00 PM</small></time></td>
+            <td class="stars">★ ★ ☆ ☆ ☆</td>
+            <td><span class="menu">⋮</span></td>
+          </tr>
+          <tr>
+            <td>
+              <label class="checkbox-label">
+                <input type="checkbox">
+                <div class="task-info">
+                  <strong>Call supervisor</strong>
+                  <span>Call John Doe and update him on the progress of the project.</span>
+                </div>
+              </label>
+            </td>
+            <td><time>2 April, 2025<br><small>3:00 PM</small></time></td>
+            <td class="stars">★ ☆ ☆ ☆ ☆</td>
+            <td><span class="menu">⋮</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="add-task">Add Task</button>
+    </main>
+  </div>
+</body>
+</html>
