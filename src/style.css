@@ -161,7 +161,7 @@ nav li {
 }
 
 .task-table th, .task-table td {
-	padding: 0.5rem;
+	padding: 0.6rem;
 	vertical-align: top;
 	border-bottom: 1px solid #ddd;
 }
@@ -197,7 +197,7 @@ strong {
 }
 
 time {
-	color: #222;
+	color: #333;
 	font-weight: 300;
 }
 
