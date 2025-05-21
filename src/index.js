@@ -1,5 +1,6 @@
 import './style.css';
-import { saveTodos, loadTodos } from "../src/modules/storage";
+import { initApp } from "./modules/controller.js";
 
-// Your app's JS logic here
-console.log('Todo app initialized!');
+initApp()
+
+
