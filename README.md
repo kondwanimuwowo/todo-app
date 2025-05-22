@@ -1,4 +1,3 @@
-
 # 📚 To-Do App with Projects
 
 A modern and modular to-do list application built with **vanilla JavaScript**, organized using the **MVC pattern**, bundled with **Webpack**, and styled for clarity and responsiveness.
